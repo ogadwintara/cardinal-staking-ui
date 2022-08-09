@@ -2,8 +2,8 @@ const { withSentryConfig } = require('@sentry/nextjs')
 
 const HOST_MAPPINGS = [
   {
-    name: 'rogue-sharks',
-    hostname: 'stake.roguesharks.org',
+    name: 'TheSuperSOL',
+    hostname: 'stake.thesupersol.net/',
   },
   {
     name: 'Orbit',
