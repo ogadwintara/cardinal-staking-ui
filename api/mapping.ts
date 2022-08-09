@@ -88,8 +88,8 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     },
   },
   {
-    name: 'TheSuperSOL1',
-    displayName: 'TheSuperSOL1',
+    name: 'TheSuperSOL',
+    displayName: 'TheSuperSOL',
     stakePoolAddress: new PublicKey(
       '8AoLaycYiegJhYedzcNAS3hohMaCtrjnShV2kUBbkSpH'
     ),
