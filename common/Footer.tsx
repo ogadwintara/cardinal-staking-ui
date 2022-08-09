@@ -3,10 +3,9 @@ import { FaDiscord, FaGithub, FaMedium, FaTwitter } from 'react-icons/fa'
 import { contrastColorMode, hexColor } from './utils'
 
 const SOCIALS = {
-  discord: { icon: <FaDiscord />, link: 'https://discord.gg/byq6uNTugq' },
-  github: { icon: <FaGithub />, link: 'https://github.com/cardinal-labs' },
-  medium: { icon: <FaMedium />, link: 'https://cardinal-labs.medium.com/' },
-  twitter: { icon: <FaTwitter />, link: 'https://twitter.com/cardinal_labs' },
+  twitter: { icon: <FaTwitter />, link: 'https://twitter.com/the_supersol' },
+  discord: { icon: <FaDiscord />, link: 'https://discord.com/invite/hwhR6GCSaD' },
+
 }
 
 export const Footer = ({
@@ -26,22 +25,22 @@ export const Footer = ({
       <div className="flex w-full flex-wrap items-start justify-between gap-10 py-10">
         <div className="flex items-center">
           <img
-            className="inline-block h-[28px]"
+            className="inline-block h-[50px]"
             src={
               contrastColorMode(bgColor)[1]
-                ? '/cardinal-crosshair.svg'
-                : '/cardinal-crosshair-dark.svg'
+                ? '/cardinal-titled.png'
+                : '/cardinal-titled.png'
             }
           />
           <span
             className="ml-3 text-2xl font-semibold"
             style={{ color: lighten(0.4, contrastColorMode(bgColor)[0]) }}
           >
-            Cardinal
+            
           </span>
         </div>
         <div className="flex gap-10 self-end text-center md:gap-20">
-          <span className="flex flex-col items-start gap-1">
+        {/*  <span className="flex flex-col items-start gap-1">
             <div
               className="mb-2 text-lg font-semibold"
               style={{ color: lighten(0.4, contrastColorMode(bgColor)[0]) }}
@@ -55,7 +54,7 @@ export const Footer = ({
               Admin
             </a>
           </span>
-          <span className="flex flex-col items-start gap-1">
+        {/* <span className="flex flex-col items-start gap-1">
             <div
               className="mb-2 text-lg font-semibold"
               style={{ color: lighten(0.4, contrastColorMode(bgColor)[0]) }}
@@ -72,12 +71,12 @@ export const Footer = ({
               Github
             </a>
             <a href="mailto:team@cardinal.so" className="text-gray-400">
-              Contact
-            </a>
+              Co
+            </a> */}
             {/*<a href="" className="text-gray-400">
               Privacy
-            </a> */}
-          </span>
+            </a> 
+          </span> */}
           {/* <span className="flex flex-col items-start">
             <div className="mb-5 text-lg font-semibold">Company</div>
             <a href="https://www.cardinal.so/" className="text-gray-400">
@@ -106,7 +105,7 @@ export const Footer = ({
         style={{ borderColor: lighten(0.2, bgColor) }}
       >
         <div className="flex items-center justify-center gap-2 text-gray-400">
-          Powered by Cardinal
+          Powered by TheSuperSOL
         </div>
         <div className="flex gap-4 text-gray-200">
           {Object.entries(SOCIALS).map(([id, { icon, link }]) => {
