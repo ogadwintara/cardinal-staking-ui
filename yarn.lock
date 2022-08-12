@@ -1206,7 +1206,7 @@
     "@sentry/types" "7.9.0"
     tslib "^1.9.3"
 
-"@sentry/webpack-plugin@1.19.0":
+"@sentry/webpack-plugin@1.19.0", "@sentry/webpack-plugin@^1.19.0":
   version "1.19.0"
   resolved "https://registry.yarnpkg.com/@sentry/webpack-plugin/-/webpack-plugin-1.19.0.tgz#2b134318f1552ba7f3e3f9c83c71a202095f7a44"
   integrity sha512-qSpdgdGMtdzagGveSWgo2b+t8PdPUscuOjbOyWCsJme9jlTFnNk0rX7JEA55OUozikKHM/+vVh08USLBnPboZw==
